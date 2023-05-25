@@ -40,7 +40,7 @@ The output file after Running Task 1
 
 ### Run Preprocessor.java
 
-1. `javac -cp /path/to/hadoop/share/hadoop/common/hadoop-common-3.3.1.jar:/path/to/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.3.1.jar:/path/to/hadoop/share/hadoop/common/lib/ Preprocessor.java`
+1. `javac -cp /path/to/hadoop/share/hadoop/common/hadoop-common-<version>.jar:/path/to/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-<version>.jar:/path/to/hadoop/share/hadoop/common/lib/ Preprocessor.java`
 2. `jar cf preprocessor.jar Preprocessor*.class`
 3. `/path/to/hadoop/bin/hadoop jar preprocessor.jar Preprocessor /path/to/input /path/to/output`
 
